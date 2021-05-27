@@ -11,7 +11,7 @@
 	echo "<table>";
 	echo "<tr>";
 	if ($per > 90) {
-		echo "<td bgcolor='red'>Percentage is:$per</td>";
+		echo "<td bgcolor='lightgreen'>Percentage is:$per</td>";
 	}
 	elseif ($per <90 && $per >75) {
 		echo "<td bgcolor=''>Percentage is:$per</td>";
