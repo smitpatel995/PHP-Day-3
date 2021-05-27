@@ -17,7 +17,7 @@
 		echo "<td bgcolor=''>Percentage is:$per</td>";
 	}
 	elseif ($per < 75 && $per>50) {
-		echo "<td bgcolor='BlueViolet'>Percentage is:$per</td>";
+		echo "<td bgcolor='cyan'>Percentage is:$per</td>";
 	}
 	else{
 		echo "<td bgcolor='black'>Percentage is:$per</td>";
