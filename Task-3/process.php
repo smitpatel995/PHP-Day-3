@@ -13,10 +13,10 @@
 	if ($per > 90) {
 		echo "<td bgcolor='lightgreen'>Percentage is:$per</td>";
 	}
-	elseif ($per <90 && $per >75) {
+	elseif ($per < 90 && $per > 75) {
 		echo "<td bgcolor=''>Percentage is:$per</td>";
 	}
-	elseif ($per < 75 && $per>50) {
+	elseif ($per < 75 && $per > 50) {
 		echo "<td bgcolor='cyan'>Percentage is:$per</td>";
 	}
 	else{
